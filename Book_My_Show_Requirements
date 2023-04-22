@@ -1,0 +1,28 @@
+Requirements:
+-Have a location: we can pick the location of the user (even if he/she has not signed in) or we can provide options or list of cities to choose from.
+-According to the location we will show movies/events like stand up comedy etc available in it.
+-Enable the users to book ticket (also can add snacks whilw booking)
+-Other features like payments,offers available,notifications etc.
+-can show ratings of the movie/shows
+
+Actors:
+1. User
+-can choose the movie, theatre, available seats (multiple),time
+-can choose which type of seat (platinum,gold etc)
+-can book a ticket, can see offers available
+-make a payment via UPI or net banking
+-customer care for resolving any issues
+-have booking history/booking details to check afterwards
+
+2.Admin
+-we can there will be a seperate profile of an admin
+-can add the new shows in the respective theatre, timings of it.
+-let's say there are multiple booking platforms from where a person can book but we have the same theatre. So admin should allocate number of seats to respective booking
+platform. So that user using particular platform can see only those seats available to book which is alloted to their platform
+-can update and delete the show/theatre details
+
+3.System
+-should maintain logs
+-should send notification it can be SMS, whatsapp or email to the user informing about successful payment, reminder of thier show etc.
+-should handle concurrent bookings. Meaning if the signed in user has selected a seats at the same time others want to book it then in that case we can have a small freezing window. 
+ If the person is unable to book within that time, allow others to see that seat available.
